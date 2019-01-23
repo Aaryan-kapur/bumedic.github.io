@@ -3,7 +3,7 @@ $colors:( 'primary':#000, 'accent':#fff);
 @function color($val) {
     @return map-get($map: $colors, $key: $val);
 }
-
+font-family: 'Roboto', sans-serif;
 * {
     padding: 0;
     margin: 0;
@@ -13,7 +13,7 @@ $colors:( 'primary':#000, 'accent':#fff);
 @import 'slider';
 body {
     font-family: 'Open Sans', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    section.top { 
+    section.top {
         height: 100vh;
         overflow: hidden;
         background: url('../../assets/back2.svg') no-repeat;
@@ -78,14 +78,14 @@ body {
                             position: relative;
                             top: 50%;
                             transform: translateY(-50%);
-                            font-size: 2.5vh;
+                            font-size: 5vh;
                             @include query(tablet-potrait){
-                                font-size:1.5vh;
+                                font-size:10vh;
                             }
                             @include query(low-res){
-                                font-size:1.5vh;
+                                font-size:10vh;
                             }                            
-                            font-weight: 600;
+                            font-weight:700;
                         }
                     }
                 }
@@ -115,11 +115,11 @@ body {
                         width: 1000/1440*100vw;
                     }
                     p {
-                        font-size: 2em;
-                        font-weight: 300;
+                        font-size: 5em;
+                        font-weight: 600;
                     }
                     p.header {
-                        font-size: 4.2em;
+                        font-size: 5em;
                         font-weight: 400;
                     }
                     .joinus {
@@ -308,7 +308,7 @@ body {
                     }
                     .flex-1 {
                         .item-1 {
-                            height: 5%;
+                            height: 0%;
                          }
                         .item-2 {
                             background: #330f49;
@@ -316,33 +316,33 @@ body {
                             height: 75%;
                         }
                         .item-3 {
-                            height: 20%;
+                            height: 0%;
                         }
                     }
                     .flex-2 {
                         width: 34%;
                         .item-1 {
-                            height: 12.5%;
+                            height: 0%;
                         }
                         .item-2 {
 
                             height: 75%;
                         }
                         .item-3 {
-                            height: 12.5%;
+                            height: 20%;
                         }
                     }
                     .flex-3 {
                         .item-1 {
-                            height: 20%;
+                            height: 0%;
                         }
                         .item-2 {
                             background: #330f49;
-                            color: white;  
+                            color: white;                            // color:red;
                             height: 75%;
                         }
                         .item-3 {
-                            height: 5%;
+                            height:20%;
                         }
                     }
                     $class-slug:flex !default;
@@ -381,7 +381,7 @@ body {
         }
         @include query(low-res){
             height:auto;
-            // display: none;         
+             
         }
         width:100%;
         overflow:hidden;

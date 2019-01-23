@@ -339,29 +339,29 @@ body {
             body section.features main .content .outer .feature .item-2 {
               box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.521); }
           body section.features main .content .outer .flex-1 .item-1 {
-            height: 5%; }
+            height: 0%; }
           body section.features main .content .outer .flex-1 .item-2 {
             background: #330f49;
             color: white;
             height: 75%; }
           body section.features main .content .outer .flex-1 .item-3 {
-            height: 20%; }
+            height: 0%; }
           body section.features main .content .outer .flex-2 {
             width: 34%; }
             body section.features main .content .outer .flex-2 .item-1 {
-              height: 12.5%; }
+              height: 0%; }
             body section.features main .content .outer .flex-2 .item-2 {
               height: 75%; }
             body section.features main .content .outer .flex-2 .item-3 {
-              height: 12.5%; }
+              height: 20%; }
           body section.features main .content .outer .flex-3 .item-1 {
-            height: 20%; }
+            height: 0%; }
           body section.features main .content .outer .flex-3 .item-2 {
             background: #330f49;
             color: white;
             height: 75%; }
           body section.features main .content .outer .flex-3 .item-3 {
-            height: 5%; }
+            height: 20%; }
           @media (min-width: 768px) and (max-width: 1024px) {
             body section.features main .content .outer .flex-1 .item-1, body section.features main .content .outer .flex-1 .item-3 {
               height: 0; }
@@ -592,6 +592,7 @@ body {
               font-size: 1em; } }
   body section.footer {
     height: 30vh;
+    
     /*  ##Device = Laptops, Desktops
         ##Screen = B/w 1025px to 1280px */
     /*  ##Device = Laptops, Desktops
